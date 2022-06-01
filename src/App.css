@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +19,16 @@ body {
 }
 
 :root {
-  --main-color: 'red';
+  --primary-color: #E3940B;
+  --secondary-color: #ED7F0C;
+  --highlight: #ED3E0C;
+  --secondary-compliment: #EFEFEF;
+  --tetiary-color: #FFFFFF;
+  --text-on-dark: #FFFFFF;
+  --text-light-on: #0F0E0E;
+  --text-on-light-mid: #686868;
+  --main-font: 'Arya', sans-serif;
+  --card-shadow: 0 1px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hidden {

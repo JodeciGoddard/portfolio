@@ -1,0 +1,38 @@
+.about-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    font-family: var(--main-font);
+}
+
+.about-container h1 {
+    font-family: var(--main-font);
+    color: var(--primary-color);
+    font-size: 4rem;
+    margin-left: 5%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    color: var(--text-on-dark);
+}
+
+.card-container p {
+    width: 80%;
+    max-width: 450px;
+    background-color: var(--secondary-color);
+    padding: 6%;
+    position: relative;
+    box-shadow: var(--card-shadow);
+}
+
+.card-container img {
+    width: 150px;
+    position: absolute;
+    transform: translate(-105%, -24%);
+    border-radius: 50%;
+    box-shadow: var(--card-shadow);
+}

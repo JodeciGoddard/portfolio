@@ -1,0 +1,34 @@
+.banner-container {
+    width: 100%;
+    height: auto;
+    background: url('../images/sunset-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    font-family: var(--main-font);
+    position: relative;
+
+}
+
+.banner-container .overlay {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(227, 148, 11, 0.81);
+}
+
+.banner-container h1 {
+    font-size: 4rem;
+    line-height: 2.5rem;
+    color: var(--text-on-dark);
+}
+
+.banner-container h2 {
+    font-size: 1.5rem;
+    color: var(--text-on-dark);
+}
