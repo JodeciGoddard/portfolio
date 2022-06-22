@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    font-family: var(--main-font);
+}
+
+.container a h1 {
+    font-family: var(--main-font);
+    color: var(--primary-color);
+    font-size: 4rem;
+    margin-left: 5%;
+}
+
+.container h1 {
+    font-family: var(--main-font);
+    color: var(--primary-color);
+    font-size: 4rem;
+    margin-left: 5%;
+}
+
+.container h3 {
+    font-family: var(--main-font);
+    color: var(--highlight);
+    margin-left: 5%;
+}
