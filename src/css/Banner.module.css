@@ -1,6 +1,7 @@
 .container {
+    max-width: 100%;
     width: 100%;
-    height: auto;
+    min-height: 100%;
     background: url('../images/sunset-bg.jpg');
     background-size: cover;
     background-position: center;
@@ -9,12 +10,13 @@
     background-attachment: fixed;
     font-family: var(--main-font);
     position: relative;
+    overflow: hidden;
 
 }
 
 .container .overlay {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -5,6 +5,8 @@ import About from './component/About';
 import Projects from './component/Projects';
 import WipersProject from './component/WipersProject';
 import KiddProject from './component/KiddProject';
+import RacqProject from './component/RacqProject';
+import BaderProject from './component/BaderProject';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Projects>
         <WipersProject />
         <KiddProject />
+        <RacqProject />
+        <BaderProject />
       </Projects>
     </div>
   );
