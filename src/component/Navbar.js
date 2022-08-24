@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className={styles.container}>
             <a href="#about">About</a>
-            <a href="#">Portfolio</a>
+            <a href="#projects">Projects</a>
             <a href="#">Contact</a>
             <a href="#" className={styles.link} >Download Resume</a>
         </div>

@@ -1,7 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    font-family: var(--main-font);
+    box-sizing: border-box;
+}
+
 .container h1 {
     font-size: 2.9rem;
 }
 
-.container p {
-    margin-left: 5%;
+.container a h1 {
+    font-family: var(--main-font);
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+
+.container h1 {
+    font-family: var(--main-font);
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+
+.container h3 {
+    font-family: var(--main-font);
+    color: var(--highlight);
 }

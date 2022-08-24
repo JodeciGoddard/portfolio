@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex: 1;
+    position: relative;
+    max-height: 100%;
+    max-width: 1160px;
+}
+
+.imageContainer {
+    box-shadow: var(--card-shadow);
+    cursor: pointer;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    display: block;
+}
+
+.topContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leftImage {
+    max-width: 47%;
+    height: min-content;
+    margin-top: 5%;
+}
+
+.rightImage {
+    max-width: 47%;
+    height: min-content;
+}
+
+.middleImage {
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+    /* transform: translate(20%, 65%); */
+}

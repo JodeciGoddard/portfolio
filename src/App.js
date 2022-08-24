@@ -13,12 +13,11 @@ function App() {
     <div className="App">
       <Banner />
       <About />
-      <Projects>
-        <WipersProject />
-        <KiddProject />
-        <RacqProject />
-        <BaderProject />
-      </Projects>
+      <Projects />
+      <WipersProject />
+      <KiddProject />
+      <RacqProject />
+      <BaderProject />
     </div>
   );
 }
