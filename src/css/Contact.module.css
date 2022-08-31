@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    font-family: var(--main-font);
+    box-sizing: border-box;
+    padding: 4%;
+    background-color: #efefef;
+    font-size: 1.5vmax;
+}
+
+.container h1 {
+    font-family: var(--main-font);
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+
+.formContainer {
+    display: flex;
+    width: 100%;
+    color: white;
+    aspect-ratio: 1 / 0.3;
+    z-index: 1;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    flex: 2;
+    padding: 2%;
+}
+
+.left a {
+    width: max-content;
+    padding: 3px 6px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: var(--highlight);
+    margin-top: auto;
+}
+
+.left a:visited {
+    color: white;
+}
+
+.left a:hover {
+    opacity: 0.6;
+}
+
+.right {
+    background-color: #ed7f0c;
+    flex: 3;
+    padding: 2%;
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+[name="email"] {
+    background-color: white;
+    font-family: var(--main-font);
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+[name="message"] {
+    background-color: white;
+    font-family: var(--main-font);
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    height: 150px;
+    max-height: 20%;
+}
+
+[value="Submit"] {
+    width: max-content;
+    padding: 3px 6px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: var(--highlight);
+    margin-top: auto;
+    font-size: 1.5vmax;
+    font-family: var(--main-font);
+    border: none;
+    cursor: pointer;
+}
+
+[value="Submit"]:hover {
+    opacity: 0.6;
+}

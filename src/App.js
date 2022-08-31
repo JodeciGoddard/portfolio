@@ -7,6 +7,7 @@ import WipersProject from './component/WipersProject';
 import KiddProject from './component/KiddProject';
 import RacqProject from './component/RacqProject';
 import BaderProject from './component/BaderProject';
+import Contact from './component/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <KiddProject />
       <RacqProject />
       <BaderProject />
+      <Contact />
     </div>
   );
 }
